@@ -9,7 +9,7 @@ The requirements are:
 - Git
 - Doxygen (optional)
 
-# Download required softwares
+# Download Required Softwares
 
 - Windows:
 
