@@ -25,6 +25,7 @@ Template for c language within VSCode CMake Environment
   - [An Introduction to Modern CMake](https://cliutils.gitlab.io/modern-cmake/)
 
 # Folder Structures
+
 ```shell
 .
 ├─.vscode
