@@ -1,11 +1,12 @@
 # Practice_Cmake
-- Download required softwares (Windows):
+# Download required softwares
+- Windows:
 
   - [Using GCC with MinGW](https://code.visualstudio.com/docs/cpp/config-mingw)
 
   - [CMake Download](https://cmake.org/download/)
 
-- Download required softwares (Linux(Ubuntu 20.04)):
+- Linux(Ubuntu 20.04):
   ```shell
   sudo apt update
   sudo apt upgrade
