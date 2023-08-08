@@ -2,6 +2,12 @@
 
 This is a template for c language within VSCode CMake Environment
 
+CMake practice based on:
+
+- [An Introduction to Modern CMake](https://cliutils.gitlab.io/modern-cmake/)
+
+- [CMake Official Tutorial](https://cmake.org/cmake/help/v3.25/guide/tutorial/index.html)
+
 The requirements are:
 
 - CMake 3.11 or better; 3.14+ highly recommended.
@@ -27,11 +33,7 @@ The requirements are:
   sudo apt install gdb
   ```
 
-- CMake practice based on:
 
-  - [An Introduction to Modern CMake](https://cliutils.gitlab.io/modern-cmake/)
-
-  - [CMake Official Tutorial](https://cmake.org/cmake/help/v3.25/guide/tutorial/index.html)
 
 
 # Folder Structure
