@@ -1,7 +1,19 @@
 # Practice_Cmake
+
 Template for c language within VSCode CMake Environment
 
+This is an example project using CMake.
+
+The requirements are:
+
+- CMake 3.11 or better; 3.14+ highly recommended.
+- A C++17 compatible compiler
+- The Boost libararies (header only part is fine)
+- Git
+- Doxygen (optional)
+
 # Download required softwares
+
 - Windows:
 
   - [Using GCC with MinGW](https://code.visualstudio.com/docs/cpp/config-mingw)
@@ -44,15 +56,6 @@ Template for c language within VSCode CMake Environment
 ```
 
 # Build and Run
-This is an example project using CMake.
-
-The requirements are:
-
-- CMake 3.11 or better; 3.14+ highly recommended.
-- A C++17 compatible compiler
-- The Boost libararies (header only part is fine)
-- Git
-- Doxygen (optional)
 
 To configure:
 
