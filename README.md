@@ -25,7 +25,21 @@ Template for c language within VSCode CMake Environment
   - [An Introduction to Modern CMake](https://cliutils.gitlab.io/modern-cmake/)
 
 # Folder Structures
-- TODO
+.
+├─.vscode
+│  └─build
+├─3rdParty
+├─apps
+├─bin
+├─build
+├─cmake
+├─doc
+├─include
+│  └─calc
+├─lib
+├─scripts
+├─src
+└─tests
 
 # Build and Run
 This is an example project using CMake.
