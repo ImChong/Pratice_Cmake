@@ -1,0 +1,26 @@
+- project
+  - .gitignore
+  - README.md
+  - LICENSE.md
+  - CMakeLists.txt
+  - cmake
+    - FindSomeLib.cmake
+    - something_else.cmake
+  - include
+    - project
+      - lib.hpp
+  - src
+    - CMakeLists.txt
+    - lib.cpp
+  - apps
+    - CMakeLists.txt
+    - app.cpp
+  - tests
+    - CMakeLists.txt
+    - testlib.cpp
+  - docs
+    - CMakeLists.txt
+  - extern
+    - googletest
+  - scripts
+    - helper.py
