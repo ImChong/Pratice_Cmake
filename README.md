@@ -8,7 +8,7 @@ Template for c language within VSCode CMake Environment
 
   - [CMake Download](https://cmake.org/download/)
 
-- Linux(Ubuntu 20.04):
+- Linux (Ubuntu 20.04):
   ```shell
   sudo apt update
   sudo apt upgrade
