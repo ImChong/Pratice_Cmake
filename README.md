@@ -1,4 +1,12 @@
 # Practice_Cmake
+Download required softwares (Windows):
+
+- [Using GCC with MinGW](https://code.visualstudio.com/docs/cpp/config-mingw)
+
+- [CMake Download](https://cmake.org/download/)
+
+Download required softwares (Linux):
+
 CMake practice based on:
 
 - [CMake official tutorial](https://cmake.org/cmake/help/v3.25/guide/tutorial/index.html)
