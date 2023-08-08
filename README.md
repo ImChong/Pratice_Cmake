@@ -5,7 +5,15 @@ Download required softwares (Windows):
 
 - [CMake Download](https://cmake.org/download/)
 
-Download required softwares (Linux):
+Download required softwares (Linux(Ubuntu 20.04)):
+```shell
+sudo apt update
+sudo apt upgrade
+sudo apt install cmake
+sudo apt install gcc
+sudo apt install g++
+sudo apt install gdb
+```
 
 CMake practice based on:
 
