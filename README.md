@@ -5,7 +5,7 @@
 
   - [CMake Download](https://cmake.org/download/)
 
-Download required softwares (Linux(Ubuntu 20.04)):
+- Download required softwares (Linux(Ubuntu 20.04)):
   ```shell
   sudo apt update
   sudo apt upgrade
