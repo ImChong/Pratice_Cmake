@@ -1,4 +1,6 @@
 # Practice_Cmake
+Template for c language within VSCode CMake Environment
+
 # Download required softwares
 - Windows:
 
@@ -21,6 +23,9 @@
   - [CMake official tutorial](https://cmake.org/cmake/help/v3.25/guide/tutorial/index.html)
 
   - [An Introduction to Modern CMake](https://cliutils.gitlab.io/modern-cmake/)
+
+# Folder Structures
+- TODO
 
 # Build and Run
 This is an example project using CMake.
