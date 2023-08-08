@@ -1,25 +1,25 @@
 # Practice_Cmake
-Download required softwares (Windows):
+- Download required softwares (Windows):
 
-- [Using GCC with MinGW](https://code.visualstudio.com/docs/cpp/config-mingw)
+  - [Using GCC with MinGW](https://code.visualstudio.com/docs/cpp/config-mingw)
 
-- [CMake Download](https://cmake.org/download/)
+  - [CMake Download](https://cmake.org/download/)
 
 Download required softwares (Linux(Ubuntu 20.04)):
-```shell
-sudo apt update
-sudo apt upgrade
-sudo apt install cmake
-sudo apt install gcc
-sudo apt install g++
-sudo apt install gdb
-```
+  ```shell
+  sudo apt update
+  sudo apt upgrade
+  sudo apt install cmake
+  sudo apt install gcc
+  sudo apt install g++
+  sudo apt install gdb
+  ```
 
-CMake practice based on:
+- CMake practice based on:
 
-- [CMake official tutorial](https://cmake.org/cmake/help/v3.25/guide/tutorial/index.html)
+  - [CMake official tutorial](https://cmake.org/cmake/help/v3.25/guide/tutorial/index.html)
 
-- [An Introduction to Modern CMake](https://cliutils.gitlab.io/modern-cmake/)
+  - [An Introduction to Modern CMake](https://cliutils.gitlab.io/modern-cmake/)
 
 # Build and Run
 This is an example project using CMake.
