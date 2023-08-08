@@ -25,7 +25,7 @@ Template for c language within VSCode CMake Environment
   - [CMake Official Tutorial](https://cmake.org/cmake/help/v3.25/guide/tutorial/index.html)
 
 
-# Folder Structures
+# Folder Structure
 
 ```shell
 .
