@@ -1,8 +1,6 @@
 # Practice_Cmake
 
-Template for c language within VSCode CMake Environment
-
-This is an example project using CMake.
+This is a template for c language within VSCode CMake Environment
 
 The requirements are:
 
