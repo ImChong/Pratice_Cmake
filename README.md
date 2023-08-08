@@ -28,20 +28,18 @@ Template for c language within VSCode CMake Environment
 
 ```shell
 .
-├─.vscode
-│  └─build
-├─3rdParty
-├─apps
-├─bin
+├─3rdParty      # googletest
+├─apps          # main.c
+├─bin           # .exe file
 ├─build
-├─cmake
-├─doc
-├─include
+├─cmake         # cmake helper functions
+├─doc           # documentation
+├─include       # library header
 │  └─calc
-├─lib
-├─scripts
-├─src
-└─tests
+├─lib           # library output
+├─scripts       # python scriptes
+├─src           # library source
+└─tests         # gtest
 ```
 
 # Build and Run
