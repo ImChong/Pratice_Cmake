@@ -12,10 +12,8 @@ enable_testing()
 
 set(test_exe_name testCalc)
 add_executable(${test_exe_name} test_lib_calc.cc)
-target_link_libraries(${test_exe_name} PRIVATE ${PROJECT_SOURCE_DIR}/lib/libcalc.a)
+target_link_libraries(${test_exe_name} PRIVATE ${PROJECT_SOURCE_DIR}/lib/libcalc.a gtest_main)
 target_include_directories(${test_exe_name} PRIVATE ${PROJECT_SOURCE_DIR}/include/calc)
-
-target_link_libraries(${test_exe_name} PRIVATE gtest_main)
 
 include(GoogleTest)
 gtest_discover_tests(${test_exe_name})
