@@ -19,8 +19,3 @@ target_link_libraries(${test_exe_name} PRIVATE gtest_main)
 
 include(GoogleTest)
 gtest_discover_tests(${test_exe_name})
-
-add_test(
-    NAME test_Calc_case00
-    COMMAND ${test_exe_name}
-)
