@@ -1,5 +1,3 @@
 .vscode/
 build/
 extern/
-*.exe
-*.a
