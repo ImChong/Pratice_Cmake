@@ -10,7 +10,7 @@ FetchContent_MakeAvailable(googletest)
 
 enable_testing()
 
-set(test_exe_name test_Calc)
+set(test_exe_name testCalc)
 add_executable(${test_exe_name} test_lib_calc.cc)
 target_link_libraries(${test_exe_name} PRIVATE ${PROJECT_SOURCE_DIR}/lib/libcalc.a)
 target_include_directories(${test_exe_name} PRIVATE ${PROJECT_SOURCE_DIR}/include/calc)
