@@ -3,6 +3,6 @@
 
 int main(int argc, const char* argv[]) {
     int res = add(1, 2);
-    printf("res: %d", res);
+    printf("res: %d \r\n", res);
     return 0;
 }
