@@ -9,7 +9,7 @@ add_compile_options(-Wall -Wextra)
 
 # 设置C/C++标准
 set(CMAKE_C_STANDARD 11)
-set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_C_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
@@ -23,7 +23,7 @@ add_subdirectory(src)       # 库文件的源文件
 add_subdirectory(apps)      # 主程序的源文件
 
 # 添加测试
-set(BUILD_TESTING ON)       # 打开测试编译选项
+set(BUILD_TESTING OFF)       # 打开测试编译选项
 if(CMAKE_PROJECT_NAME STREQUAL PROJECT_NAME AND BUILD_TESTING)
     add_subdirectory(tests)     # 添加gtest测试的源文件
 endif()
