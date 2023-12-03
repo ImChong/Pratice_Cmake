@@ -3,4 +3,4 @@
 
 int add(int a, int b);
 
-#endif // !LIB_CALC_H
+#endif /* LIB_CALC_H */
