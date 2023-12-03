@@ -14,8 +14,7 @@ set(CMAKE_C_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 # 设置输出路径
-# set(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/lib)                          # 库文件输出地址
-# set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/output)                    # 可执行文件输出地址
+set(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/output/lib)             # 库文件输出地址
 
 # 添加子目录
 add_subdirectory(src)       # 库文件的源文件
