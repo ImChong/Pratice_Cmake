@@ -55,7 +55,7 @@ The requirements are:
 
 ## Build and Run
 
-To configure:
+To configure (in root folder):
 
 ```bash
 mkdir build
@@ -63,13 +63,13 @@ cd build
 cmake ..
 ```
 
-To build:
+To build (in build folder):
 
 ```bash
 cmake --build .
 ```
 
-To test
+To test (in bin folder):
 
 ```bash
 TODO
