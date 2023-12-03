@@ -1,5 +1,7 @@
 # Practice_Cmake
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 This is a template for c language within VSCode CMake Environment
 
 CMake practice based on:
@@ -23,7 +25,7 @@ The requirements are:
   - [CMake Download](https://cmake.org/download/)
 
 - Linux (Ubuntu 20.04):
-  
+
   ```shell
   sudo apt update
   sudo apt upgrade
