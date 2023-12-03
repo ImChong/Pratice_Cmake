@@ -58,13 +58,15 @@ The requirements are:
 To configure:
 
 ```bash
-cmake -S . -B build
+mkdir build
+cd build
+cmake ..
 ```
 
 To build:
 
 ```bash
-cmake --build build
+cmake --build .
 ```
 
 To test (`--target` can be written as `-t` in CMake 3.15+):
