@@ -1,15 +1,35 @@
-#include <gtest/gtest.h>
+#include "gtest/gtest.h"
 
 extern "C" {
     #include "lib_calc.h"
 }
 
-// Demonstrate some basic assertions.
-TEST(test_helperFunc, BasicAssertions) {
-    // Expect two strings not to be equal.
-    EXPECT_STRNE("hello", "world");
-    // Expect equality.
-    EXPECT_EQ(7 * 6, 42);
-    // Expect equality.
-    EXPECT_EQ(add(5, 4), 9);
+/**********************************************************************************/
+/*                                                                                */
+/*                                   TEST SUITE                                   */
+/*                                                                                */
+/**********************************************************************************/
+class TestLibCalc : public ::testing::Test {
+ public:
+    static void SetUpTestCase() {
+        // Code here will be called once before all tests
+    }
+    void SetUp() override {
+        // Code here will be called before each test
+    }
+    void TearDown() override {
+        // Code here will be called after each test
+    }
+    static void TearDownTestCase() {
+        // Code here will be called once after all tests
+    }
+};
+
+/**********************************************************************************/
+/*                                                                                */
+/*                                   TEST CASES                                   */
+/*                                                                                */
+/**********************************************************************************/
+TEST_F(TestLibCalc, testAdd) {
+    EXPECT_EQ(3, add(1, 2));
 }
