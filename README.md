@@ -14,7 +14,7 @@ The requirements are:
 - A C++17 compatible compiler
 - Git
 
-# Download Required Softwares
+## Download Required Softwares
 
 - Windows:
 
@@ -23,6 +23,7 @@ The requirements are:
   - [CMake Download](https://cmake.org/download/)
 
 - Linux (Ubuntu 20.04):
+  
   ```shell
   sudo apt update
   sudo apt upgrade
@@ -32,10 +33,7 @@ The requirements are:
   sudo apt install gdb
   ```
 
-
-
-
-# Folder Structure
+## Folder Structure
 
 ```shell
 .
@@ -48,20 +46,18 @@ The requirements are:
 ├─include       # library header
 │  └─calc
 ├─lib           # library output
-├─scripts       # python scriptes
+├─scripts       # python scripts
 ├─src           # library source
 └─tests         # gtest
 ```
 
-# Build and Run
+## Build and Run
 
 To configure:
 
 ```bash
 cmake -S . -B build
 ```
-
-Add `-GNinja` if you have Ninja.
 
 To build:
 
