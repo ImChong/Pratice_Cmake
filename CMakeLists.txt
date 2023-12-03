@@ -18,7 +18,7 @@ set(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/output/lib)             # 库文�
 
 # 添加子目录
 add_subdirectory(src)       # 库文件的源文件
-# add_subdirectory(apps)      # 主程序的源文件
+add_subdirectory(apps)      # 主程序的源文件
 
 # 添加测试
 set(BUILD_TESTING OFF)       # 打开测试编译选项
