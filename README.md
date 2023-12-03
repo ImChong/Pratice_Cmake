@@ -69,8 +69,14 @@ To build (in build folder):
 cmake --build .
 ```
 
-To test (in bin folder):
+To run (in output\exe\main folder):
 
 ```bash
-TODO
+./main.exe
+```
+
+To test (in output\exe\test folder):
+
+```bash
+./test_lib_XXX.exe
 ```
