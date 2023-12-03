@@ -1,7 +1,7 @@
 # Template_Cmake
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Build and Run Tests](https://github.com/ImChong/Template_Cmake/actions/workflows/buildRunTestWorkflow.yml/badge.svg)](https://github.com/ImChong/Template_Cmake/actions/workflows/buildRunTestWorkflow.yml)
+[![Build and Run](https://github.com/ImChong/Template_Cmake/actions/workflows/buildRunWorkflow.yml/badge.svg)](https://github.com/ImChong/Template_Cmake/actions/workflows/buildRunWorkflow.yml)
 
 This is a template for c language within VSCode CMake Environment
 
