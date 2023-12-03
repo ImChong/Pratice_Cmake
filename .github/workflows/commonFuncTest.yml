@@ -1,0 +1,53 @@
+# This is a workflow to get source code and run tests of common functions
+name: Common Function Tests
+
+# Controls when the action will run. Workflow runs when manually triggered using the UI or API.
+on:
+    # Allows you to run this workflow manually from the Actions tab
+    workflow_dispatch:
+    # Allows you to run this workflow every time a commit is pushed to the repository
+    push:
+    # Allows you to run this workflow every time a pull request is opened or updated
+    pull_request:
+    # Schedule a workflow to run automatically
+    schedule:
+      - cron:  '0 2 * * *'
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+    # Job
+    Common-Function-GTests:
+      # Runner
+      runs-on: ubuntu-latest
+      steps:
+        # Step: Checkout source code
+        - name: Checkout source code
+          uses: actions/checkout@main
+
+        # Step: Setup CMake
+        - name: Setup CMake
+          uses: jwlawson/actions-setup-cmake@v1.14.1
+
+        # Step: Tool Versions
+        - name: Tool Versions
+          run: cmake --version
+
+        # Step: Build all the tests
+        - name: Build all the GTests
+          run: |
+            mkdir build
+            cd build
+            cmake ..
+            cmake --build .
+
+        # Step: Run all test executables in the build/bin directory
+        - name: Run Main
+          run: |
+            chmod +x .github/workflows/testRunner/runMain.sh
+            .github/workflows/testRunner/runMain.sh
+
+        # Step: Run all test executables in the build/bin directory
+        - name: Run all GTests
+          run: |
+            chmod +x .github/workflows/testRunner/runGTests.sh
+            .github/workflows/testRunner/runGTests.sh
