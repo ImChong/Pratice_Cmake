@@ -15,17 +15,22 @@ include_directories(${CMAKE_BINARY_DIR}/ThirdParty/googletest/include)
 link_directories(${CMAKE_BINARY_DIR}/ThirdParty/googletest/lib)
 
 # 添加头文件路径
-include_directories(${PROJECT_SOURCE_DIR}/apps/inc/calc)
+include_directories(${PROJECT_SOURCE_DIR}/apps/inc)
 
 # 创建一个包含所有测试目标的列表
 set(TEST_TARGETS lib_calc)
+set(TEST_TARGET_NAME test_${TEST_TARGETS})
 
 # 对每个测试目标执行操作
 foreach(TARGET ${TEST_TARGETS})
     # 创建一个新的测试目标
-    add_executable(test_${TARGET} test_${TARGET}.cc ${PROJECT_SOURCE_DIR}/apps/src/${TEST_TARGETS}.c)
+    add_executable(${TEST_TARGET_NAME} ${TEST_TARGET_NAME}.cc ${PROJECT_SOURCE_DIR}/apps/src/${TEST_TARGETS}.c)
 
     # 将Google Test库链接到测试目标
-    add_dependencies(test_${TARGET} googletest)
-    target_link_libraries(test_${TARGET} gtest gtest_main)
+    add_dependencies(${TEST_TARGET_NAME} googletest)
+    target_link_libraries(${TEST_TARGET_NAME} gtest gtest_main)
+
+    # 设置可执行文件的输出目录
+    set_target_properties(${TEST_TARGET_NAME} PROPERTIES
+                                RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/output/exe/test)
 endforeach()
