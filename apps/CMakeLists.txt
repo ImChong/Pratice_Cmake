@@ -6,7 +6,7 @@ add_executable(${exe_name} main.c)
 
 # 添加库文件和头文件地址
 target_link_libraries(${exe_name} PRIVATE ${PROJECT_SOURCE_DIR}/output/lib/libcalc.a)
-target_include_directories(${exe_name} PRIVATE ${PROJECT_SOURCE_DIR}/apps/inc/calc)
+target_include_directories(${exe_name} PRIVATE ${PROJECT_SOURCE_DIR}/apps/inc)
 
 # 设置可执行文件的输出目录
 set_target_properties(${exe_name} PROPERTIES
